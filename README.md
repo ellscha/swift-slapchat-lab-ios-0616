@@ -41,7 +41,7 @@ That's it! Your model and data store are now ready to fetch and save `Message`s.
 
 #####Making Test Messages
 
-1. We can't display messages if we haven't created any! Let's do this in `TableViewController.m`.
+1. We can't display messages if we haven't created any! Let's do this in `TableViewController.swift`.
     - Make a local array for storing messages. This will power your tableview's data source, and make it more self-contained.    
 	- Make your dataStore a property and initialize it. 
 	- Create a few `Message`s. Use `+NSEntityDescription insertNewObjectForEntityForName(_:inManagedObjectContext:)`. 
